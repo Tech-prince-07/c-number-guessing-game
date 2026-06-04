@@ -18,7 +18,7 @@ int sub(int x, int y)
 {
     int sub;
     sub = x - y;
-    printf("The sub of %d and %d is %d\n", x, y, sub);
+    printf("The substraction of %d and %d is %d\n", x, y, sub);
     return sub;
 };
 
@@ -26,7 +26,7 @@ int mul(int x, int y)
 {
     int mul;
     mul = x * y;
-    printf("The mul of %d and %d is %d\n", x, y, mul);
+    printf("The multiply of %d and %d is %d\n", x, y, mul);
     return mul;
 };
 
@@ -43,7 +43,7 @@ int divide(int x, int y)
     {
         divide = x / y;
         rem = x % y;
-        printf("The division of %d and %d is %d and remainder is : %d\n", x, y, divide, rem);
+        printf("The division of %d by %d then Quotient is: %d and remainder is : %d\n", x, y, divide, rem);
     }
     return divide;
 };
