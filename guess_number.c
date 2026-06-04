@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+// // Function for Comparison between random number and guessed_number
 void compare(int, int);
 void compare(int random_number, int guessed_number)
 {
@@ -23,9 +24,9 @@ void compare(int random_number, int guessed_number)
 
 int main()
 {
-    int random_number, guessed_number, attempt; // count wala mujhe samjh nhi aaya
+    int random_number, guessed_number, attempt; 
     // Seed the random number generator
-    srand(time(NULL)); // // har bar run krne pe random number aayega
+    srand(time(NULL)); 
 
     // Generate random number between 1 and 100
     random_number = (rand() % 100) + 1;
